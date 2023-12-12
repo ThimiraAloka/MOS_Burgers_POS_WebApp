@@ -1,0 +1,52 @@
+#main-background{
+    width: 100%;
+    height: 1024px;
+    background: rgba(42, 42, 42, 1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+#background-image{
+    width: 100%;
+    height: 740px;
+    background: url("../img/dashbord_img.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.6;
+    position: absolute;
+    top: 284px;
+    left: 1px;
+    overflow: hidden;
+}
+
+#top-image{
+    width: 100%;
+  height: 284px;
+  background: url("../img/topic_background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  overflow: hidden;
+}
+
+#topic-first-part{
+    width: 100%;
+    color:rgb(255, 183, 0);
+    position: absolute;
+    top: 73px;
+    left: 83px;
+    font-family: Jolly Lodger;
+    font-weight: Regular;
+    font-size: 150px;
+    opacity: 1;
+    text-align: center;
+}
+
